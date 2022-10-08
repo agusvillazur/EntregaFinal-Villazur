@@ -695,6 +695,9 @@ h1 {
   }
 }
 @media (max-width: 1000px) {
+  .botonera .logo {
+    margin-left: -40px;
+  }
   .botonera .menu-btn i {
     display: block;
   }
@@ -832,10 +835,13 @@ h1 {
     font-size: 2rem;
     padding-left: 2rem;
   }
+  .oficinas-grid p {
+    font-size: 0.6rem;
+  }
 }
 @media (max-width: 460px) {
   .footer-creds {
-    flex-flow: column;
+    flex-flow: block;
   }
   .hero-title h2 {
     padding-left: 1.5rem;

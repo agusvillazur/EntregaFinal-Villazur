@@ -33,11 +33,14 @@
 
 @media (max-width: 1000px){
     .botonera{
+      .logo{
+        margin-left: -40px;
+      }
         .menu-btn{
              i{
                  display: block;
              }     
-         }
+        }
          ul{
              position: fixed;
              top: 85px;
@@ -201,11 +204,18 @@
       padding-left: 2rem;
     }
   }
+
+  .oficinas-grid{
+    p{
+      font-size: 0.6rem;
+    }
+  }
+
 }
 
 @media (max-width:460px) {
   .footer-creds{
-    flex-flow: column;
+    flex-flow: block;
   }
 
   .hero-title{
