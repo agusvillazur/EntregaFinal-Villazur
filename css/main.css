@@ -107,7 +107,7 @@ html, body {
 }
 
 .logo::first-letter {
-  color: #cb3b06;
+  color: rgb(203, 59, 6);
 }
 
 .menu-btn i {
@@ -307,7 +307,7 @@ html, body {
 .mision-title h2 {
   font-family: "Poppins";
   font-size: 3rem;
-  color: #cb3b06;
+  color: rgb(203, 59, 6);
   font-weight: 700;
   padding: 0 1rem 3rem 1rem;
   text-align: center;
@@ -340,7 +340,7 @@ html, body {
 .mision-grid .info h2 {
   font-family: "Poppins";
   font-size: 2.2rem;
-  color: #cb3b06;
+  color: rgb(203, 59, 6);
   font-weight: 700;
   line-height: 30px;
   padding: 0;
@@ -460,7 +460,7 @@ h1 {
 .team-name h2 {
   font-family: "Poppins";
   font-size: 1.3rem;
-  color: #cb3b06;
+  color: rgb(203, 59, 6);
   font-weight: 600;
 }
 
@@ -494,7 +494,7 @@ h1 {
 }
 .headshot-grid .card-item:hover .card-details {
   opacity: 1;
-  background-color: #cb3b06;
+  background-color: rgb(203, 59, 6);
   border-radius: 5px;
   width: 200px;
 }
@@ -586,7 +586,7 @@ h1 {
   height: 4px;
   width: 50px;
   border-radius: 2px;
-  background-color: #cb3b06;
+  background-color: rgb(203, 59, 6);
 }
 .contact-container .contact-box .right .field {
   width: 100%;
@@ -611,7 +611,7 @@ h1 {
 .contact-container .contact-box .right .btn {
   width: 100%;
   padding: 0.5rem 1rem;
-  background-color: #cb3b06;
+  background-color: rgb(203, 59, 6);
   color: rgb(255, 255, 255);
   font-size: 1.1rem;
   border: none;
@@ -658,7 +658,7 @@ h1 {
 .oficinas-grid h2 {
   font-family: "Poppins";
   font-size: 1.1rem;
-  color: #cb3b06;
+  color: rgb(203, 59, 6);
   font-weight: 600;
   margin-top: 1.5rem;
 }
@@ -701,7 +701,7 @@ h1 {
 
 .error-body {
   height: 100vh;
-  background-color: #c76440;
+  background-color: rgb(199, 100, 64);
   background-size: 400%;
 }
 
@@ -817,8 +817,8 @@ h1 {
   display: inline-block;
   margin: 0 10px;
   text-decoration: none;
-  border: 2px solid #cb3b06;
-  color: #cb3b06;
+  border: 2px solid rgb(203, 59, 6);
+  color: rgb(203, 59, 6);
   font-weight: 500;
   padding: 10px 25px;
   border-radius: 25px;
