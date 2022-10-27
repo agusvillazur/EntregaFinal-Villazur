@@ -114,6 +114,8 @@ h1{
                 @include texto ($textXsm, $mainColor, $textLight);
             }
             .serv-btn{
+                text-align: center;
+                text-decoration: none;
                 margin-top: 35px;
                 @include texto(14px, $mainColor, 400);
                 color: $mainColor;

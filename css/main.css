@@ -107,7 +107,7 @@ html, body {
 }
 
 .logo::first-letter {
-  color: rgb(203, 59, 6);
+  color: #cb3b06;
 }
 
 .menu-btn i {
@@ -307,7 +307,7 @@ html, body {
 .mision-title h2 {
   font-family: "Poppins";
   font-size: 3rem;
-  color: rgb(203, 59, 6);
+  color: #cb3b06;
   font-weight: 700;
   padding: 0 1rem 3rem 1rem;
   text-align: center;
@@ -340,7 +340,7 @@ html, body {
 .mision-grid .info h2 {
   font-family: "Poppins";
   font-size: 2.2rem;
-  color: rgb(203, 59, 6);
+  color: #cb3b06;
   font-weight: 700;
   line-height: 30px;
   padding: 0;
@@ -402,6 +402,8 @@ h1 {
   font-weight: 300;
 }
 .serv-cards .serv-card .serv-card_details .serv-btn {
+  text-align: center;
+  text-decoration: none;
   margin-top: 35px;
   font-family: "Poppins";
   font-size: 14px;
@@ -421,6 +423,35 @@ h1 {
   background-color: rgba(255, 255, 255, 0.12);
 }
 
+.carousel-item {
+  height: 500px;
+}
+.carousel-item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.carousel-item .overlay {
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  background-color: #080d15;
+  opacity: 0.6;
+}
+.carousel-item .carousel-caption {
+  z-index: 100;
+  margin: 0 3rem;
+}
+.carousel-item .carousel-caption h1 {
+  font-weight: 700;
+}
+.carousel-item .carousel-indicators {
+  z-index: 100;
+}
+
 .team-name {
   margin-top: 2rem;
   padding: 0 2rem;
@@ -429,7 +460,7 @@ h1 {
 .team-name h2 {
   font-family: "Poppins";
   font-size: 1.3rem;
-  color: rgb(203, 59, 6);
+  color: #cb3b06;
   font-weight: 600;
 }
 
@@ -463,7 +494,7 @@ h1 {
 }
 .headshot-grid .card-item:hover .card-details {
   opacity: 1;
-  background-color: rgb(203, 59, 6);
+  background-color: #cb3b06;
   border-radius: 5px;
   width: 200px;
 }
@@ -555,7 +586,7 @@ h1 {
   height: 4px;
   width: 50px;
   border-radius: 2px;
-  background-color: rgb(203, 59, 6);
+  background-color: #cb3b06;
 }
 .contact-container .contact-box .right .field {
   width: 100%;
@@ -580,7 +611,7 @@ h1 {
 .contact-container .contact-box .right .btn {
   width: 100%;
   padding: 0.5rem 1rem;
-  background-color: rgb(203, 59, 6);
+  background-color: #cb3b06;
   color: rgb(255, 255, 255);
   font-size: 1.1rem;
   border: none;
@@ -627,7 +658,7 @@ h1 {
 .oficinas-grid h2 {
   font-family: "Poppins";
   font-size: 1.1rem;
-  color: rgb(203, 59, 6);
+  color: #cb3b06;
   font-weight: 600;
   margin-top: 1.5rem;
 }
@@ -666,6 +697,138 @@ h1 {
 .footer .footer-creds .socials a {
   color: rgb(87, 97, 113);
   font-size: 1rem;
+}
+
+.error-body {
+  height: 100vh;
+  background-color: #c76440;
+  background-size: 400%;
+}
+
+#error-page {
+  position: absolute;
+  border-radius: 5px;
+  top: 10%;
+  left: 15%;
+  right: 15%;
+  bottom: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+#error-page .content {
+  max-width: 600px;
+  text-align: center;
+}
+
+.content h2.header {
+  font-size: 18vw;
+  line-height: 1em;
+  position: relative;
+}
+
+.content h2.header:after {
+  position: absolute;
+  content: attr(data-text);
+  top: 0;
+  left: 0;
+  right: 0;
+  background: -webkit-repeating-linear-gradient(-45deg, #cb3b06, #cb3b06, #fcb045, #de8e1e, #fcb045, #cb3b06, #de8e1e);
+  background-size: 400%;
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.25);
+  -webkit-animation: animate 10s ease-in-out infinite;
+          animation: animate 10s ease-in-out infinite;
+}
+
+@-webkit-keyframes animate {
+  0% {
+    background-position: 0 0;
+  }
+  25% {
+    background-position: 100% 0;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  75% {
+    background-position: 0% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+
+@keyframes animate {
+  0% {
+    background-position: 0 0;
+  }
+  25% {
+    background-position: 100% 0;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  75% {
+    background-position: 0% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+.content h4 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: #000;
+  font-size: 2em;
+  max-width: 600px;
+  position: relative;
+}
+
+.content h4:after {
+  position: absolute;
+  content: attr(data-text);
+  top: 0;
+  left: 0;
+  right: 0;
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.4);
+  -webkit-background-clip: text;
+  background-clip: border-box;
+  -webkit-text-fill-color: transparent;
+}
+
+.content p {
+  font-size: 1.2em;
+  color: #0d0d0d;
+}
+
+.content .btns {
+  margin: 25px 0;
+  display: inline-flex;
+}
+
+.content .btns a {
+  display: inline-block;
+  margin: 0 10px;
+  text-decoration: none;
+  border: 2px solid #cb3b06;
+  color: #cb3b06;
+  font-weight: 500;
+  padding: 10px 25px;
+  border-radius: 25px;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+.content .btns a:hover {
+  background: #cb3b06;
+  color: #fff;
 }
 
 @media screen and (max-width: 1300px) {
@@ -774,10 +937,6 @@ h1 {
   }
   .serv-card {
     margin-bottom: 2rem;
-  }
-  .contact-box {
-    display: block;
-    min-width: 420px;
   }
 }
 @media screen and (max-width: 750px) {
